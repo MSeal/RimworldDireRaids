@@ -6,12 +6,14 @@
     <targetTypes>
       <li>MapPlayerHome</li>
     </targetTypes>
-    <workerClass>IncidentWorker_DireRaidEnemy</workerClass>
+    <workerClass>DireRaids.IncidentWorker_DireRaidEnemy</workerClass>
     <baseChance>1.0</baseChance>
     <minRefireDays>60</minRefireDays>
+    <letterDef>ThreatBig</letterDef>
     <category>ThreatBig</category>
     <pointsScaleable>true</pointsScaleable>
-    <minThreatPoints>450</minThreatPoints>
-    <tale>Raid</tale>
+    <minThreatPoints>2000</minThreatPoints>
+    <letterLabel>Dire Raid!</letterLabel>
+    <letterText>A much larger threat approaches. The danger appears to be dire!</letterText>
   </IncidentDef>
 </Defs>

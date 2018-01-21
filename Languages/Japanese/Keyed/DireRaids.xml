@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- The definition isn't picked up even with DefInjected, so they're duplicated here -->
+    <DireRaidEnemy.label>恐ろしい攻撃</DireRaidEnemy.label>
+    <DireRaidEnemy.letterLabel>恐ろしい攻撃！</DireRaidEnemy.letterLabel>
+    <DireRaidEnemy.letterText>はるかに大きな脅威に近づきます。危険は危ないと思われる！</DireRaidEnemy.letterText>
+
+    <DireRaids.SettingName>恐ろしい攻撃</DireRaids.SettingName>
+    <DireRaids.DangerSetting>危険倍率</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>猛攻撃のポイント値の乗数を決定する</DireRaids.DangerSettingDescription>
+</LanguageData>

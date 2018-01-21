@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Dire Raids</name>
+    <name>[B18] Dire Raids</name>
     <author>Pyrce</author>
-    <url></url>
+    <url>https://github.com/MSeal/RimworldDireRaids</url>
     <targetVersion>0.18.1722</targetVersion>
-    <description>Creates a mid-to-late game event which is intended to add more threat to established bases.</description>
+    <description>[B18] Creates a mid-to-late game event which is intended to add more threat to established bases. Many late game bases can feel unthreatened by any events, making late game a bit dull. The goal of this mod is to add the potential threat to such bases.
+
+The Dire Raid event is rare and can't occur back-to-back. Dire raids can't occur until your base is fairly developed, so no day 20 death balls. The event is limited to augmenting Raid events, not any other events (no Dire Infestations). If any new raids are introduced by other mods they can also become Dire Raid variants.
+
+If you load this module after HugsLib you can configure the difficulty of the mod in the Mod Options menu. Changing this value modifies the multiplier against pawn strength pool used to generate raids.
+
+Version: 0.18.0
+Current (Sometimes Crude) Translations:
+- English
+- French
+- German
+- Japanese
+- Polish
+- Protuguese
+- Russian
+- Spanish
+
+Link me translation fixes/additions and I'll add them in.
+    </description>
 </ModMetaData>

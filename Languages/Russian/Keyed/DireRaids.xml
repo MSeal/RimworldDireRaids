@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- The definition isn't picked up even with DefInjected, so they're duplicated here -->
+    <DireRaidEnemy.label>рейдовый рейд</DireRaidEnemy.label>
+    <DireRaidEnemy.letterLabel>Рейдовый Рейд!</DireRaidEnemy.letterLabel>
+    <DireRaidEnemy.letterText>Подходит гораздо более серьезная угроза. Опасность кажется ужасной!</DireRaidEnemy.letterText>
+
+    <DireRaids.SettingName>Рейдовый Рейд</DireRaids.SettingName>
+    <DireRaids.DangerSetting>Множитель опасности</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>Определяет множитель для точечных значений Рейдовый Рейд</DireRaids.DangerSettingDescription>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- The definition isn't picked up even with DefInjected, so they're duplicated here -->
+    <DireRaidEnemy.label>raid terrible</DireRaidEnemy.label>
+    <DireRaidEnemy.letterLabel>Raid Terrible!</DireRaidEnemy.letterLabel>
+    <DireRaidEnemy.letterText>Une menace beaucoup plus grande approche. Le danger semble être désastreux!</DireRaidEnemy.letterText>
+
+    <DireRaids.SettingName>Raid Terrible</DireRaids.SettingName>
+    <DireRaids.DangerSetting>Multiplicateur de danger</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>Détermine le multiplicateur pour les valeurs de points de Raid Terrible</DireRaids.DangerSettingDescription>
+</LanguageData>

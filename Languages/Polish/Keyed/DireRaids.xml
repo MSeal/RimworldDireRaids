@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- The definition isn't picked up even with DefInjected, so they're duplicated here -->
+    <DireRaidEnemy.label>straszliwy rajd</DireRaidEnemy.label>
+    <DireRaidEnemy.letterLabel>Straszliwy Rajd!</DireRaidEnemy.letterLabel>
+    <DireRaidEnemy.letterText>Zbliża się znacznie większe zagrożenie. Niebezpieczeństwo wydaje się tragiczne!</DireRaidEnemy.letterText>
+
+    <DireRaids.SettingName>Straszliwy Rajd</DireRaids.SettingName>
+    <DireRaids.DangerSetting>Mnożnik Zagrożenia</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>Określa mnożnik dla wartości punktowych najokrutniejszych rajdów</DireRaids.DangerSettingDescription>
+</LanguageData>

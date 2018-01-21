@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- The definition isn't picked up even with DefInjected, so they're duplicated here -->
+    <DireRaidEnemy.label>fatal Überfall</DireRaidEnemy.label>
+    <DireRaidEnemy.letterLabel>Fatal Überfall!</DireRaidEnemy.letterLabel>
+    <DireRaidEnemy.letterText>Eine viel größere Bedrohung nähert sich. Die Gefahr scheint ernst zu sein!</DireRaidEnemy.letterText>
+
+    <DireRaids.SettingName>Fatal Überfall</DireRaids.SettingName>
+    <DireRaids.DangerSetting>Gefahr Multiplikator</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>Bestimmt den Multiplikator für Punktwerte von Fatal Überfall</DireRaids.DangerSettingDescription>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- The definition isn't picked up even with DefInjected, so they're duplicated here -->
+    <DireRaidEnemy.label>ataque direto</DireRaidEnemy.label>
+    <DireRaidEnemy.letterLabel>Ataque Direto!</DireRaidEnemy.letterLabel>
+    <DireRaidEnemy.letterText>Uma abordagem muito maior se aproxima. O perigo parece terrível!</DireRaidEnemy.letterText>
+
+    <DireRaids.SettingName>Ataque Direto</DireRaids.SettingName>
+    <DireRaids.DangerSetting>Multiplicador de Perigo</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>Determina o multiplicador por valores pontuais de Ataques Diretos</DireRaids.DangerSettingDescription>
+</LanguageData>
