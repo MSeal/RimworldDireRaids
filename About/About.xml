@@ -4,7 +4,9 @@
     <author>Pyrce</author>
     <url>https://github.com/MSeal/RimworldDireRaids</url>
     <targetVersion>0.18.1722</targetVersion>
-    <description>[B18] Creates a mid-to-late game event which is intended to add more threat to established bases. Many late game bases can feel unthreatened by any events, making late game a bit dull. The goal of this mod is to add the potential threat to such bases.
+    <description>[B18] Creates a mid-to-late game event called a Dire Raid. The new event triggers like a normal Raid, but more rarely, and multiplies the points available for the raid to use in purchasing pawns.
+
+The mod is intended to add more threat to established bases. Many late game bases can feel unthreatened by any events, making late game a bit dull. Thus this mod is to meant to add a potential threat to such bases.
 
 The Dire Raid event is rare and can't occur back-to-back. Dire raids can't occur until your base is fairly developed, so no day 20 death balls. The event is limited to augmenting Raid events, not any other events (no Dire Infestations). If any new raids are introduced by other mods they can also become Dire Raid variants.
 
