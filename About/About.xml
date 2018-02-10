@@ -12,17 +12,40 @@ The Dire Raid event is rare and can't occur back-to-back. Dire raids can't occur
 
 If you load this module after HugsLib you can configure the difficulty of the mod in the Mod Options menu. Changing this value modifies the multiplier against pawn strength pool used to generate raids.
 
-Version: 0.18.0
+Version: 0.18.1
 Current (Sometimes Crude) Translations:
 - English
 - French
 - German
 - Japanese
 - Polish
-- Protuguese
+- Portuguese
 - Russian
 - Spanish
 
 Link me translation fixes/additions and I'll add them in.
+
+
+FAQ:
+
+Is this another type of raid?
+
+    No. In game terms this is a new Incident like Infestations, Mad Animals, and Tornados. It triggers independently as a Big Thread and reuses the Raids available while giving them bonus points to pick build enemies.
+
+How can I reduce lag during raids?
+
+    For reducing lag in late game raids (not just Dire Raids) you can use either:
+    RuntimeGC: http://steamcommunity.com/sharedfiles/filedetails/?id=962732083
+    or
+    MakeLoveNotWar: https://ludeon.com/forums/index.php?topic=31646.0
+
+    Each pawn that gets added adds social interactions between other pawns, making large numbers of pawns a problem for the game. Cleaning these relationships up after pawns are killed or eliminating them entirely can help with the issue. Otherwise it's a core game inefficiency that mods can't always fix.
+
+CHANGES:
+
+0.18.1
+
+    Increased spawn rate slightly as it took longer than a year for the average Dire Raid to occur in test runs.
+
     </description>
 </ModMetaData>

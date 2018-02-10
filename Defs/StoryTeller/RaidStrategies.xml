@@ -7,7 +7,7 @@
       <li>MapPlayerHome</li>
     </targetTypes>
     <workerClass>DireRaids.IncidentWorker_DireRaidEnemy</workerClass>
-    <baseChance>1.0</baseChance>
+    <baseChance>1.8</baseChance>
     <minRefireDays>60</minRefireDays>
     <letterDef>ThreatBig</letterDef>
     <category>ThreatBig</category>
