@@ -2,14 +2,14 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// General Information about an assembly is controlled through the following 
+// General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DireRaids")]
+[assembly: AssemblyTitle("HugsDireRaid")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DireRaids")]
+[assembly: AssemblyProduct("HugsDireRaid")]
 [assembly: AssemblyCopyright("Copyright Pyrce ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e1283ee0-bb42-4dac-98a1-866ff77427e4")]
+[assembly: Guid("69c815a5-3c7a-4891-b9ea-a7971b5fd6b1")]
 
 // Version information for an assembly consists of the following four values:
 //

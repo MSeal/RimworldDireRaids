@@ -6,6 +6,19 @@
     <DireRaidEnemy.letterText>Eine viel größere Bedrohung nähert sich. Die Gefahr scheint ernst zu sein!</DireRaidEnemy.letterText>
 
     <DireRaids.SettingName>Fatal Überfall</DireRaids.SettingName>
+  
     <DireRaids.DangerSetting>Gefahr Multiplikator</DireRaids.DangerSetting>
-    <DireRaids.DangerSettingDescription>Bestimmt den Multiplikator für Punktwerte von Fatal Überfall</DireRaids.DangerSettingDescription>
+    <DireRaids.DangerSettingDescription>Bestimmt den Multiplikator für Punktwerte von Fatal Überfall (Standard 3)</DireRaids.DangerSettingDescription>
+
+    <DireRaids.BaseChance>Base Chance</DireRaids.BaseChance>
+    <DireRaids.BaseChanceDescription>Die Chance von Fatal Überfall (Standard 1.8)</DireRaids.BaseChanceDescription>
+
+    <DireRaids.MinRefire>Min Refire (Tage)</DireRaids.MinRefire>
+    <DireRaids.MinRefireDescription>Die Mindestzahl von Tagen zwischen Fatal Überfall (Standard 60)</DireRaids.MinRefireDescription>
+
+    <DireRaids.MinThreat>Min-Bedrohung</DireRaids.MinThreat>
+    <DireRaids.MinThreatDescription>Die minimale Grundpunktzahl bevor du Fatal Überfall siehst (Standard 2000)</DireRaids.MinThreatDescription>
+  
+    <DireRaids.MinPopulation>Mindestbevölkerung</DireRaids.MinPopulation>
+    <DireRaids.MinPopulationDescription>Die Mindestpopulation, bevor ein Fatal Überfall angezeigt wird (Standard 1)</DireRaids.MinPopulationDescription>
 </LanguageData>

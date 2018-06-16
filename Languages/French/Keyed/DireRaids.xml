@@ -6,6 +6,19 @@
     <DireRaidEnemy.letterText>Une menace beaucoup plus grande approche. Le danger semble être désastreux!</DireRaidEnemy.letterText>
 
     <DireRaids.SettingName>Raid Terrible</DireRaids.SettingName>
-    <DireRaids.DangerSetting>Multiplicateur de danger</DireRaids.DangerSetting>
-    <DireRaids.DangerSettingDescription>Détermine le multiplicateur pour les valeurs de points de Raid Terrible</DireRaids.DangerSettingDescription>
+  
+    <DireRaids.DangerSetting>Multiplicateur de Danger</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>Détermine le multiplicateur pour les valeurs de points de Dire Raids (par défaut 3)</DireRaids.DangerSettingDescription>
+
+    <DireRaids.BaseChance>Chance de Base</DireRaids.BaseChance>
+    <DireRaids.BaseChanceDescription>La chance de Dire Raids se produisant (par défaut 1.8)</DireRaids.BaseChanceDescription>
+
+    <DireRaids.MinRefire>Min Refire (Jours)</DireRaids.MinRefire>
+    <DireRaids.MinRefireDescription>Le nombre de jours minimum entre Dire Raids (par défaut 60)</DireRaids.MinRefireDescription>
+
+    <DireRaids.MinThreat>Min Menace</DireRaids.MinThreat>
+    <DireRaids.MinThreatDescription>Le score de base minimum avant de voir Dire Raids (par défaut 2000)</DireRaids.MinThreatDescription>
+
+    <DireRaids.MinPopulation>Population Min</DireRaids.MinPopulation>
+    <DireRaids.MinPopulationDescription>La population minimum avant de voir Dire Raids (par défaut 1)</DireRaids.MinPopulationDescription>
 </LanguageData>

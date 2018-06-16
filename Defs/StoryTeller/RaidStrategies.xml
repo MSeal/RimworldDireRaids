@@ -13,6 +13,7 @@
     <category>ThreatBig</category>
     <pointsScaleable>true</pointsScaleable>
     <minThreatPoints>2000</minThreatPoints>
+    <minPopulation>1</minPopulation>
     <letterLabel>Dire Raid!</letterLabel>
     <letterText>A much larger threat approaches. The danger appears to be dire!</letterText>
   </IncidentDef>

@@ -6,6 +6,19 @@
     <DireRaidEnemy.letterText>A much larger threat approaches. The danger appears to be dire!</DireRaidEnemy.letterText>
 
     <DireRaids.SettingName>Dire Raids</DireRaids.SettingName>
+  
     <DireRaids.DangerSetting>Danger Multiplier</DireRaids.DangerSetting>
-    <DireRaids.DangerSettingDescription>Determines the multiplier for point values of Dire Raids</DireRaids.DangerSettingDescription>
+    <DireRaids.DangerSettingDescription>Determines the multiplier for point values of Dire Raids (default 3)</DireRaids.DangerSettingDescription>
+
+    <DireRaids.BaseChance>Base Chance</DireRaids.BaseChance>
+    <DireRaids.BaseChanceDescription>The chance of Dire Raids occurring (default 1.8)</DireRaids.BaseChanceDescription>
+
+    <DireRaids.MinRefire>Min Refire (Days)</DireRaids.MinRefire>
+    <DireRaids.MinRefireDescription>The minimum number of days between Dire Raids (default 60)</DireRaids.MinRefireDescription>
+
+    <DireRaids.MinThreat>Min Threat</DireRaids.MinThreat>
+    <DireRaids.MinThreatDescription>The minimum base score before seeing Dire Raids (default 2000)</DireRaids.MinThreatDescription>
+  
+    <DireRaids.MinPopulation>Min Population</DireRaids.MinPopulation>
+    <DireRaids.MinPopulationDescription>The minimum population before seeing Dire Raids (default 1)</DireRaids.MinPopulationDescription>
 </LanguageData>

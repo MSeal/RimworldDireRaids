@@ -8,22 +8,13 @@
 
 The mod is intended to add more threat to established bases. Many late game bases can feel unthreatened by any events, making late game a bit dull. Thus this mod is to meant to add a potential threat to such bases.
 
-The Dire Raid event is rare and can't occur back-to-back. Dire raids can't occur until your base is fairly developed, so no day 20 death balls. The event is limited to augmenting Raid events, not any other events (no Dire Infestations). If any new raids are introduced by other mods they can also become Dire Raid variants.
+By default the Dire Raid event is rare and can't occur back-to-back. Dire raids can't occur until your base is fairly developed, so no day 20 death balls. The event is limited to augmenting Raid events, not any other events (no Dire Infestations). If any new raids are introduced by other mods they can also become Dire Raid variants.
 
-If you load this module after HugsLib you can configure the difficulty of the mod in the Mod Options menu. Changing this value modifies the multiplier against pawn strength pool used to generate raids.
+If you load this module after HugsLib you can configure the difficulty and occurrance of the mod in the Mod Options menu. Changing Danger Multiplier value modifies the multiplier against pawn strength pool used to generate raids.
 
-Version: 0.18.1
-Current (Sometimes Crude) Translations:
-- English
-- French
-- German
-- Japanese
-- Polish
-- Portuguese
-- Russian
-- Spanish
 
-Link me translation fixes/additions and I'll add them in.
+Suggested Mods:
+- Hugs Lib (or you'll see an error on load -- it recovers gracefully to use default settings if you don't want HugsLib installed).
 
 
 FAQ:
@@ -41,11 +32,28 @@ How can I reduce lag during raids?
 
     Each pawn that gets added adds social interactions between other pawns, making large numbers of pawns a problem for the game. Cleaning these relationships up after pawns are killed or eliminating them entirely can help with the issue. Otherwise it's a core game inefficiency that mods can't always fix.
 
+
+Current (Sometimes Crude) Translations:
+- English
+- French
+- German
+- Japanese
+- Polish
+- Portuguese
+- Russian
+- Spanish
+
+Link me translation fixes/additions and I'll add them in.
+
+
 CHANGES:
 
 0.18.1
 
     Increased spawn rate slightly as it took longer than a year for the average Dire Raid to occur in test runs.
+    
+0.18.2
 
+    Added support for modifying many more event trigger controls. See Mod Options to configure mod how you want it. WARNING: not having HugsLib loaded will now result in an error message on load. It's safe to ignore this message.
     </description>
 </ModMetaData>

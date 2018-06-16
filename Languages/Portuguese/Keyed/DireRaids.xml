@@ -6,6 +6,19 @@
     <DireRaidEnemy.letterText>Uma abordagem muito maior se aproxima. O perigo parece terrível!</DireRaidEnemy.letterText>
 
     <DireRaids.SettingName>Ataque Direto</DireRaids.SettingName>
+  
     <DireRaids.DangerSetting>Multiplicador de Perigo</DireRaids.DangerSetting>
-    <DireRaids.DangerSettingDescription>Determina o multiplicador por valores pontuais de Ataques Diretos</DireRaids.DangerSettingDescription>
+    <DireRaids.DangerSettingDescription>Determina o multiplicador por valores pontuais de Ataques Diretos (padrão 3)</DireRaids.DangerSettingDescription>
+
+    <DireRaids.BaseChance>Chance de Base</DireRaids.BaseChance>
+    <DireRaids.BaseChanceDescription>A chance de Ataque Direto ocorrerem (padrão 1.8)</DireRaids.BaseChanceDescription>
+
+    <DireRaids.MinRefire>Min Refire (dias)</DireRaids.MinRefire>
+    <DireRaids.MinRefireDescription>O número mínimo de dias entre Ataque Direto (padrão 60)</DireRaids.MinRefireDescription>
+
+    <DireRaids.MinThreat>Ameaça Min</DireRaids.MinThreat>
+    <DireRaids.MinThreatDescription>A pontuação base mínima antes de Ataque Direto (padrão 2000)</DireRaids.MinThreatDescription>
+
+    <DireRaids.MinPopulation>População mínima</DireRaids.MinPopulation>
+    <DireRaids.MinPopulationDescription>A população mínima antes de Ataque Direto (padrão 1)</DireRaids.MinPopulationDescription>
 </LanguageData>

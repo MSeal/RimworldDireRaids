@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+    <modNameReadable>Dire Raids</modNameReadable>
+    <modIdentifier>DireRaids</modIdentifier>
+    <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1277882177</linkUrl>
+  </HugsLib.UpdateFeatureDef>
+
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>DireRaids_0_18_1</defName>
+    <assemblyVersion>0.18.1</assemblyVersion>
+    <content>Increased spawn rate slightly as it took longer than a year for the average Dire Raid to occur in test runs.</content>
+  </HugsLib.UpdateFeatureDef>
+
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>DireRaids_0_18_2</defName>
+    <assemblyVersion>0.18.2</assemblyVersion>
+    <content>Added support for modifying many more event trigger controls. See Mod Options to configure mod how you want it.</content>
+  </HugsLib.UpdateFeatureDef>
+</Defs>

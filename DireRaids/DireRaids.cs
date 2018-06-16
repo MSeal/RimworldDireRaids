@@ -2,47 +2,49 @@
 using System.Collections.Generic;
 using RimWorld;
 using Verse;
-using HugsLib;
-using HugsLib.Settings;
+using System.Reflection;
 
 namespace DireRaids {
+  public interface DireRaidLoader {
+    float PointMultiplier();
+  }
+
   [StaticConstructorOnStartup]
   public class IncidentWorker_DireRaidEnemy : IncidentWorker_RaidEnemy {
-    protected static Func<float> getPointMultiplier;
+    protected static DireRaidLoader modLoader;
 
     static IncidentWorker_DireRaidEnemy() {
-      // load order does not matter- HugsLib initializes before StaticConstructorOnStartup
-      InitializePointMultiplier();
-      Log.Message("Dire Raids: Setting point multiplier: " + getPointMultiplier());
-    }
+      try
+      {
+        ((Action)(() => {
+          var DLL = Assembly.Load("HugsDireRaidLoader");
+          Type type = DLL.GetType("DireRaids.HugsDireRaidLoader", true);
+          //Type type = Type.GetType("DireRaids.HugsDireRaidLoader", true);
 
-    protected static void InitializePointMultiplier() {
-      const float default_point_multiplier = 3.0F;
-
-      // Need a wrapper method/lambda to be able to catch the TypeLoadException when HugsLib isn't present
-      try {
-        ((Action) (() => {
-          var settings = HugsLibController.Instance.Settings.GetModSettings("DireRaids");
-          // add a mod name to display in the Mods Settings menu
-          settings.EntryName = "DireRaids.SettingName".Translate();
-          // handle can't be saved as a SettingHandle<> type; otherwise the compiler generated closure class will throw a typeloadexception
-          object handle = settings.GetHandle(
-            "pointMultiplier",
-            "DireRaids.DangerSetting".Translate(),
-            "DireRaids.DangerSettingDescription".Translate(),
-            default_point_multiplier);
-          getPointMultiplier = () => (SettingHandle<float>) handle;
+          object loaderInstance = Activator.CreateInstance(type);
+          modLoader = loaderInstance as DireRaidLoader;
         }))();
-      } catch (TypeLoadException) {
-        getPointMultiplier = () => default_point_multiplier;
+      }
+      catch (Exception ex)
+      {
+        if (ex is TypeLoadException || ex is ReflectionTypeLoadException)
+        {
+          Log.Warning(ex.ToString());
+          Type type = Type.GetType("DireRaids.NonHugsDireRaidLoader", true);
+          object loaderInstance = Activator.CreateInstance(type);
+          modLoader = loaderInstance as DireRaidLoader;
+          Log.Message("[DireRaids] Unable to load Hug variant of Dire Raids... loaded default settings.");
+        } else {
+          throw;
+        }
       }
     }
 
     protected override void ResolveRaidPoints(IncidentParms parms) {
       base.ResolveRaidPoints(parms);
       float originPoints = parms.points;
-      parms.points *= getPointMultiplier();
-      Log.Message("Dire Raid points recalculated: " + originPoints + " to " + parms.points);
+      parms.points *= modLoader.PointMultiplier();
+      Log.Message(String.Format("[DireRaids] points recalculated: {0} to {1}", originPoints, parms.points));
     }
 
     protected override string GetLetterLabel(IncidentParms parms) {
