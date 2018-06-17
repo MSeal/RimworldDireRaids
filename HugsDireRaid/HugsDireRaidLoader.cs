@@ -21,7 +21,8 @@ namespace DireRaids
     protected SettingHandle<int> minPopulationHandler;
 
     public float PointMultiplier() {
-      return pointMultHandler;
+      LoadHandles();
+      return pointMultHandler.Value;
     }
 
     public override string ModIdentifier {
