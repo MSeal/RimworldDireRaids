@@ -1,6 +1,6 @@
 # RimworldDireRaids
 
-![Version](https://img.shields.io/badge/Rimworld-B18-brightgreen.svg)
+![Version](https://img.shields.io/badge/Rimworld-B18-brightgreen.svg) on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1277882177)
 
 ![Alt text](About/Preview.png?raw=true "DireRaids")
 
