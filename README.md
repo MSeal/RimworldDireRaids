@@ -1,4 +1,4 @@
-# RimworldThanksForTheFish
+# RimworldDireRaids
 
 ![Version](https://img.shields.io/badge/Rimworld-B18-brightgreen.svg)
 
