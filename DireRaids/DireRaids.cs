@@ -3,42 +3,122 @@ using System.Collections.Generic;
 using RimWorld;
 using Verse;
 using System.Reflection;
+using HugsLib;
+using HugsLib.Settings;
 
 namespace DireRaids {
-  public interface DireRaidLoader {
-    float PointMultiplier();
+  public class DireRaidLoader : ModBase
+  {
+    const float DEFAULT_POINT_MULT = 3.0F;
+    const float DEFAULT_BASE_CHANCE = 1.8F;
+    const int DEFAULT_MIN_REFIRE = 60;
+    const int DEFAULT_MIN_THREAT = 2000;
+    const int DEFAULT_MIN_POP = 1;
+
+    protected SettingHandle<float> pointMultHandler;
+    protected SettingHandle<float> baseChanceHandler;
+    protected SettingHandle<int> minRefireDaysHandler;
+    protected SettingHandle<int> minThreatPointsHandler;
+    protected SettingHandle<int> minPopulationHandler;
+
+    public float PointMultiplier() {
+      LoadHandles();
+      return pointMultHandler.Value;
+    }
+
+    public override string ModIdentifier {
+      get { return "DireRaids"; }
+    }
+
+    public override void Initialize() {
+      // add a mod name to display in the Mods Settings menu
+      Settings.EntryName = "DireRaids.SettingName".Translate();
+    }
+
+    public static SettingHandle.ValueIsValid FloatNonNegativeValidator()
+    {
+      return str => {
+        float parsed;
+        if (!float.TryParse(str, out parsed)) return false;
+        return parsed >= 0.0;
+      };
+    }
+
+    public static SettingHandle.ValueIsValid IntNonNegativeValidator()
+    {
+      return str => {
+        int parsed;
+        if (!int.TryParse(str, out parsed)) return false;
+        return parsed >= 0;
+      };
+    }
+
+    protected void LoadHandles()
+    {
+      pointMultHandler = Settings.GetHandle<float>(
+        "pointMultiplier",
+        "DireRaids.DangerSetting".Translate(),
+        "DireRaids.DangerSettingDescription".Translate(),
+        DEFAULT_POINT_MULT,
+        FloatNonNegativeValidator());
+      pointMultHandler.OnValueChanged = newValue => { ApplySettings(); };
+
+      baseChanceHandler = Settings.GetHandle<float>(
+         "baseChance",
+         "DireRaids.BaseChance".Translate(),
+         "DireRaids.BaseChanceDescription".Translate(),
+         DEFAULT_BASE_CHANCE,
+         FloatNonNegativeValidator());
+      baseChanceHandler.OnValueChanged = newValue => { ApplySettings(); };
+
+      minRefireDaysHandler = Settings.GetHandle<int>(
+        "minRefireDays",
+        "DireRaids.MinRefire".Translate(),
+        "DireRaids.MinRefireDescription".Translate(),
+        DEFAULT_MIN_REFIRE,
+        IntNonNegativeValidator());
+      minRefireDaysHandler.OnValueChanged = newValue => { ApplySettings(); };
+
+      minThreatPointsHandler = Settings.GetHandle<int>(
+        "minThreatPoints",
+        "DireRaids.MinThreat".Translate(),
+        "DireRaids.MinThreatDescription".Translate(),
+        DEFAULT_MIN_THREAT,
+        IntNonNegativeValidator());
+      minThreatPointsHandler.OnValueChanged = newValue => { ApplySettings(); };
+
+      minPopulationHandler = Settings.GetHandle<int>(
+        "minPopulation",
+        "DireRaids.MinPopulation".Translate(),
+        "DireRaids.MinPopulationDescription".Translate(),
+        DEFAULT_MIN_POP,
+        IntNonNegativeValidator());
+      minPopulationHandler.OnValueChanged = newValue => { ApplySettings(); };
+    }
+
+    public void ApplySettings()
+    {
+      IncidentDef raid = IncidentDef.Named("DireRaidEnemy");
+      raid.baseChance = baseChanceHandler;
+      raid.minRefireDays = minRefireDaysHandler;
+      raid.minThreatPoints = minThreatPointsHandler;
+      raid.minPopulation = minPopulationHandler;
+
+      Logger.Message(String.Format(
+        "Settings loaded:\n\tpointMultiplier: {0}\n\tbaseChange: {1}\n\tminRefireDays: {2}\n\tminThreatPoints: {3}\n\tminPopulation: {4}",
+        PointMultiplier(), raid.baseChance, raid.minRefireDays, raid.minThreatPoints, raid.minPopulation));
+    }
+
+    public override void DefsLoaded()
+    {
+      LoadHandles();
+      ApplySettings();
+    }
   }
 
   [StaticConstructorOnStartup]
   public class IncidentWorker_DireRaidEnemy : IncidentWorker_RaidEnemy {
-    protected static DireRaidLoader modLoader;
-
-    static IncidentWorker_DireRaidEnemy() {
-      try
-      {
-        ((Action)(() => {
-          var DLL = Assembly.Load("HugsDireRaidLoader");
-          Type type = DLL.GetType("DireRaids.HugsDireRaidLoader", true);
-          //Type type = Type.GetType("DireRaids.HugsDireRaidLoader", true);
-
-          object loaderInstance = Activator.CreateInstance(type);
-          modLoader = loaderInstance as DireRaidLoader;
-        }))();
-      }
-      catch (Exception ex)
-      {
-        if (ex is TypeLoadException || ex is ReflectionTypeLoadException)
-        {
-          Log.Warning(ex.ToString());
-          Type type = Type.GetType("DireRaids.NonHugsDireRaidLoader", true);
-          object loaderInstance = Activator.CreateInstance(type);
-          modLoader = loaderInstance as DireRaidLoader;
-          Log.Message("[DireRaids] Unable to load Hug variant of Dire Raids... loaded default settings.");
-        } else {
-          throw;
-        }
-      }
-    }
+    protected static DireRaidLoader modLoader = new DireRaidLoader();
 
     protected override void ResolveRaidPoints(IncidentParms parms) {
       base.ResolveRaidPoints(parms);

@@ -17,4 +17,10 @@
     <assemblyVersion>0.18.2</assemblyVersion>
     <content>Added support for modifying many more event trigger controls. See Mod Options to configure mod how you want it.</content>
   </HugsLib.UpdateFeatureDef>
+  
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>DireRaids_0_19_0</defName>
+    <assemblyVersion>0.19.0</assemblyVersion>
+    <content>B19 support!</content>
+  </HugsLib.UpdateFeatureDef>
 </Defs>

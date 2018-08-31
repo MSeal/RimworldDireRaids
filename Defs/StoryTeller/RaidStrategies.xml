@@ -3,9 +3,9 @@
   <IncidentDef>
     <defName>DireRaidEnemy</defName>
     <label>enemy dire raid</label>
-    <targetTypes>
-      <li>MapPlayerHome</li>
-    </targetTypes>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
     <workerClass>DireRaids.IncidentWorker_DireRaidEnemy</workerClass>
     <baseChance>1.8</baseChance>
     <minRefireDays>60</minRefireDays>

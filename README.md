@@ -1,10 +1,10 @@
 # RimworldDireRaids
 
-![Version](https://img.shields.io/badge/Rimworld-B18-brightgreen.svg) on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1277882177)
+![Version](https://img.shields.io/badge/Rimworld-B19-brightgreen.svg) on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1498661217)
 
 ![Alt text](About/Preview.png?raw=true "DireRaids")
 
-[B18] Creates a mid-to-late game event called a Dire Raid. The new event triggers like a normal Raid, but more rarely, and multiplies the points available for the raid to use in purchasing pawns.
+[B19] Creates a mid-to-late game event called a Dire Raid. The new event triggers like a normal Raid, but more rarely, and multiplies the points available for the raid to use in purchasing pawns.
 
 The mod is intended to add more threat to established bases. Many late game bases can feel unthreatened by any events, making late game a bit dull. Thus this mod is to meant to add a potential threat to such bases.
 
@@ -13,8 +13,8 @@ By default the Dire Raid event is rare and can't occur back-to-back. Dire raids 
 If you load this module after HugsLib you can configure the difficulty and occurrance of the mod in the Mod Options menu. Changing Danger Multiplier value modifies the multiplier against pawn strength pool used to generate raids.
 
 
-## Suggested Mods:
-- Hugs Lib (or you'll see an error on load -- it recovers gracefully to use default settings if you don't want HugsLib installed).
+## Required Mods:
+- Hugs Lib (loaded before DireRaids)
 
 ## FAQ:
 
@@ -25,11 +25,19 @@ If you load this module after HugsLib you can configure the difficulty and occur
 #### How can I reduce lag during raids?
 
 > For reducing lag in late game raids (not just Dire Raids) you can use either:
->   RuntimeGC: http://steamcommunity.com/sharedfiles/filedetails/?id=962732083
+>   RuntimeGC: http://steamcommunity.com/sharedfiles/filedetails/?id=962732083 (if/when it updates to B19)
 > or:
->   MakeLoveNotWar: https://ludeon.com/forums/index.php?topic=31646.0
+>   MakeLoveNotWar: https://ludeon.com/forums/index.php?topic=31646.0 (if/when it updates to B19)
 >
 > Each pawn that gets added adds social interactions between other pawns, making large numbers of pawns a problem for the game. Cleaning these relationships up after pawns are killed or eliminating them entirely can help with the issue. Otherwise it's a core game inefficiency that mods can't always fix.
+
+#### In the late game it seems to freeze when a Dire Raid happens?
+
+> If you wait, it's usually just thinking real hard.
+
+#### DireRaids never seem to occur. Are they super rare?
+
+> Well, remember that they're more rare than regular raids and require a minimum base value / time to pass before triggering. You can adjust these mod settings with HugLib under Options -> Mod Settings if you want more frequent occurances. You can also use the debug tools to trial run the next several events and see if it would roll DireRaids once in a while for your setup.
 
 ## Current (Sometimes Crude) Translations:
 - English
@@ -54,3 +62,6 @@ Link me translation fixes/additions and I'll add them in.
 
 > Added support for modifying many more event trigger controls. See Mod Options to configure mod how you want it. WARNING: not having HugsLib loaded will now result in an error message on load. It's safe to ignore this message.
 
+#### 0.19.0
+
+> B19 support!
