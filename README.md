@@ -20,7 +20,7 @@ If you load this module after HugsLib you can configure the difficulty and occur
 
 #### Is this another type of raid?
 
-> No. In game terms this is a new Incident like Infestations, Mad Animals, and Tornados. It triggers independently as a Big Thread and reuses the Raids available while giving them bonus points to pick build enemies.
+> No. In game terms this is a new Incident like Infestations, Mad Animals, and (formally) Tornados. It triggers independently as a Big Threat and reuses the Raids available while giving them bonus points to pick build enemies.
 
 #### How can I reduce lag during raids?
 
