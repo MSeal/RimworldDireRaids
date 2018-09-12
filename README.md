@@ -45,6 +45,8 @@ If you load this module after HugsLib you can configure the difficulty and occur
 - German
 - Japanese
 - Korean
+- Chinese (Simplified)
+- Chinese (Traditional)
 - Polish
 - Portuguese
 - Russian

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- The definition isn't picked up even with DefInjected, so they're duplicated here -->
+    <DireRaidEnemy.label>敵人的突襲</DireRaidEnemy.label>
+    <DireRaidEnemy.letterLabel>敵人的突襲！</DireRaidEnemy.letterLabel>
+    <DireRaidEnemy.letterText>更大的威脅接近。危險似乎是可怕的！</DireRaidEnemy.letterText>
+
+    <DireRaids.SettingName>敵人的突襲</DireRaids.SettingName>
+  
+    <DireRaids.DangerSetting>危險乘數</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>確定敵人的突襲的點值的乘數（默認為3）</DireRaids.DangerSettingDescription>
+
+    <DireRaids.BaseChance>基本機會</DireRaids.BaseChance>
+    <DireRaids.BaseChanceDescription>發生敵人的突襲的機會（默認為1.8）</DireRaids.BaseChanceDescription>
+
+    <DireRaids.MinRefire>最低限額（天）</DireRaids.MinRefire>
+    <DireRaids.MinRefireDescription>敵人的突襲之間的最小天數（默認為60）</DireRaids.MinRefireDescription>
+
+    <DireRaids.MinThreat>最小威脅</DireRaids.MinThreat>
+    <DireRaids.MinThreatDescription>在看到敵人的突襲之前的最低基本分數（默認為2000）</DireRaids.MinThreatDescription>
+  
+    <DireRaids.MinPopulation>最小人口</DireRaids.MinPopulation>
+    <DireRaids.MinPopulationDescription>看到敵人的突襲之前的最小人口數（默認為1）</DireRaids.MinPopulationDescription>
+</LanguageData>
