@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>[B19] Dire Raids</name>
+    <name>[1.0] Dire Raids</name>
     <author>Pyrce</author>
     <url>https://github.com/MSeal/RimworldDireRaids</url>
-    <targetVersion>0.19.2009</targetVersion>
-    <description>[h1][B19] Dire Raids[/h1]
+    <targetVersion>1.0.2059</targetVersion>
+    <description>[h1][1.0] Dire Raids[/h1]
 
 Creates a mid-to-late game event called a Dire Raid. The new event triggers like a normal Raid, but more rarely, and multiplies the points available for the raid to use in purchasing pawns.
 
@@ -28,9 +28,9 @@ If you load this module after HugsLib you can configure the difficulty and occur
 [b]How can I reduce lag during raids?[/b]
 
     For reducing lag in late game raids (not just Dire Raids) you can use either:
-      RuntimeGC: http://steamcommunity.com/sharedfiles/filedetails/?id=962732083 (if/when it updates to B19)
+      RuntimeGC: http://steamcommunity.com/sharedfiles/filedetails/?id=962732083 (if/when it updates to 1.0)
     or:
-      MakeLoveNotWar: https://ludeon.com/forums/index.php?topic=31646.0 (if/when it updates to B19)
+      MakeLoveNotWar: https://ludeon.com/forums/index.php?topic=31646.0 (if/when it updates to 1.0)
 
     Each pawn that gets added adds social interactions between other pawns, making large numbers of pawns a problem for the game. Cleaning these relationships up after pawns are killed or eliminating them entirely can help with the issue. Otherwise it's a core game inefficiency that mods can't always fix.
 
@@ -45,32 +45,16 @@ If you load this module after HugsLib you can configure the difficulty and occur
 
 [h1]Current (Sometimes Crude) Translations[/h1]
 - English
-- French
-- German
-- Japanese
-- Korean
-- Chinese (Simplified)
-- Chinese (Traditional)
-- Polish
-- Portuguese
-- Russian
-- Spanish
+- Française
+- Deutsche
+- 中文
+- 한국어
+- 日本語
+- Polskie
+- Portuguesa
+- Pусский
+- Español
 
 Link me translation fixes/additions and I'll add them in.
-
-
-[h1]CHANGES[/h1]
-
-[b]0.18.1[/b]
-
-    Increased spawn rate slightly as it took longer than a year for the average Dire Raid to occur in test runs.
-    
-[b]0.18.2[/b]
-
-    Added support for modifying many more event trigger controls. See Mod Options to configure mod how you want it. WARNING: not having HugsLib loaded will now result in an error message on load. It's safe to ignore this message.
-    
-[b]0.19.0[/b]
-
-    B19 support!
     </description>
 </ModMetaData>

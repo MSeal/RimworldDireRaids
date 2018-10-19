@@ -1,6 +1,6 @@
-# RimworldDireRaids
+﻿# RimworldDireRaids
 
-![Version](https://img.shields.io/badge/Rimworld-B19-brightgreen.svg) on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1498661217)
+![Version](https://img.shields.io/badge/Rimworld-1.0-brightgreen.svg) on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1542379675)
 
 ![Alt text](About/Preview.png?raw=true "DireRaids")
 
@@ -25,9 +25,9 @@ If you load this module after HugsLib you can configure the difficulty and occur
 #### How can I reduce lag during raids?
 
 > For reducing lag in late game raids (not just Dire Raids) you can use either:
->   RuntimeGC: http://steamcommunity.com/sharedfiles/filedetails/?id=962732083 (if/when it updates to B19)
+>   RuntimeGC: http://steamcommunity.com/sharedfiles/filedetails/?id=962732083 (if/when it updates to 1.0)
 > or:
->   MakeLoveNotWar: https://ludeon.com/forums/index.php?topic=31646.0 (if/when it updates to B19)
+>   MakeLoveNotWar: https://ludeon.com/forums/index.php?topic=31646.0 (if/when it updates to 1.0)
 >
 > Each pawn that gets added adds social interactions between other pawns, making large numbers of pawns a problem for the game. Cleaning these relationships up after pawns are killed or eliminating them entirely can help with the issue. Otherwise it's a core game inefficiency that mods can't always fix.
 
@@ -41,16 +41,15 @@ If you load this module after HugsLib you can configure the difficulty and occur
 
 ## Current (Sometimes Crude) Translations:
 - English
-- French
-- German
-- Japanese
-- Korean
-- Chinese (Simplified)
-- Chinese (Traditional)
-- Polish
-- Portuguese
-- Russian
-- Spanish
+- Française
+- Deutsche
+- 中文
+- 한국어
+- 日本語
+- Polskie
+- Portuguesa
+- Pусский
+- Español
 
 Link me translation fixes/additions and I'll add them in.
 
@@ -58,13 +57,13 @@ Link me translation fixes/additions and I'll add them in.
 ## Changes:
 
 #### 0.18.1
-
 > Increased spawn rate slightly as it took longer than a year for the average Dire Raid to occur in test runs.
     
 #### 0.18.2
-
 > Added support for modifying many more event trigger controls. See Mod Options to configure mod how you want it. WARNING: not having HugsLib loaded will now result in an error message on load. It's safe to ignore this message.
 
 #### 0.19.0
-
 > B19 support!
+
+#### 1.0.0
+> 1.0 support!
