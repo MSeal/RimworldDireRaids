@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>[1.0] Dire Raids</name>
+    <name>Dire Raids</name>
     <author>Pyrce</author>
     <url>https://github.com/MSeal/RimworldDireRaids</url>
-    <targetVersion>1.0.2059</targetVersion>
-    <description>[h1][1.0] Dire Raids[/h1]
+    <supportedVersions>
+      <li>1.0</li>
+      <li>1.1</li>
+    </supportedVersions>
+    <packageId>pyrce.dire.raids</packageId>
+    <modDependencies>
+      <li>
+        <displayName>HugsLib</displayName>
+        <packageId>UnlimitedHugs.HugsLib</packageId>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+      </li>
+    </modDependencies>
+    <description>[h1]Dire Raids[/h1]
 
 Creates a mid-to-late game event called a Dire Raid. The new event triggers like a normal Raid, but more rarely, and multiplies the points available for the raid to use in purchasing pawns.
 
@@ -16,7 +27,7 @@ If you load this module after HugsLib you can configure the difficulty and occur
 
 
 [h1]Required Mods[/h1]
-- Hugs Lib (loaded before DireRaids)
+- Hugs Lib
 
 
 [h1]FAQ[/h1]
@@ -27,10 +38,8 @@ If you load this module after HugsLib you can configure the difficulty and occur
 
 [b]How can I reduce lag during raids?[/b]
 
-    For reducing lag in late game raids (not just Dire Raids) you can use either:
-      RuntimeGC: http://steamcommunity.com/sharedfiles/filedetails/?id=962732083 (if/when it updates to 1.0)
-    or:
-      MakeLoveNotWar: https://ludeon.com/forums/index.php?topic=31646.0 (if/when it updates to 1.0)
+    For reducing lag in late game raids (not just Dire Raids) you can use:
+      RuntimeGC: http://steamcommunity.com/sharedfiles/filedetails/?id=962732083 (if/when it updates to 1.1)
 
     Each pawn that gets added adds social interactions between other pawns, making large numbers of pawns a problem for the game. Cleaning these relationships up after pawns are killed or eliminating them entirely can help with the issue. Otherwise it's a core game inefficiency that mods can't always fix.
 
@@ -46,7 +55,7 @@ If you load this module after HugsLib you can configure the difficulty and occur
 [h1]Current (Sometimes Crude) Translations[/h1]
 - English
 - Française
-- Deutsche
+- Deutsch
 - 中文
 - 한국어
 - 日本語
