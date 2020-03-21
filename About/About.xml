@@ -15,6 +15,9 @@
         <steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
       </li>
     </modDependencies>
+    <loadAfter>
+      <li>UnlimitedHugs.HugsLib</li>
+    </loadAfter>
     <description>[h1]Dire Raids[/h1]
 
 Creates a mid-to-late game event called a Dire Raid. The new event triggers like a normal Raid, but more rarely, and multiplies the points available for the raid to use in purchasing pawns.
