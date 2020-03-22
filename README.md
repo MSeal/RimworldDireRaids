@@ -1,4 +1,4 @@
-﻿# RimworldDireRaids
+# RimworldDireRaids
 
 ![Version](https://img.shields.io/badge/Rimworld-1.1-brightgreen.svg) on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1542379675)
 
@@ -40,7 +40,7 @@ If you load this module after HugsLib you can configure the difficulty and occur
 ## Current (Sometimes Crude) Translations:
 - English
 - Française
-- Deutsche
+- Deutsch
 - 中文
 - 한국어
 - 日本語
