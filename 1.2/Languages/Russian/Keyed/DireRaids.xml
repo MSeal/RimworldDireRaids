@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- The definition isn't picked up even with DefInjected, so they're duplicated here -->
+    <DireRaidEnemy.label>рейдовый рейд</DireRaidEnemy.label>
+    <DireRaidEnemy.letterLabel>Рейдовый Рейд!</DireRaidEnemy.letterLabel>
+    <DireRaidEnemy.letterText>Подходит гораздо более серьезная угроза. Опасность кажется ужасной!</DireRaidEnemy.letterText>
+
+    <DireRaids.SettingName>Рейдовый Рейд</DireRaids.SettingName>
+  
+    <DireRaids.DangerSetting>Множитель опасности</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>Определяет множитель для точечных значений Рейдовый Рейд (по умолчанию 3)</DireRaids.DangerSettingDescription>
+
+    <DireRaids.BaseChance>Базовый шанс</DireRaids.BaseChance>
+    <DireRaids.BaseChanceDescription>Вероятность возникновения рейдовых рейдов (по умолчанию 1.8)</DireRaids.BaseChanceDescription>
+
+    <DireRaids.MinRefire>Минимум погашения (дни)</DireRaids.MinRefire>
+    <DireRaids.MinRefireDescription>Минимальное количество дней между Dire Raids (по умолчанию 60)</DireRaids.MinRefireDescription>
+
+    <DireRaids.MinThreat>Минимальная угроза</DireRaids.MinThreat>
+    <DireRaids.MinThreatDescription>Минимальный базовый балл до просмотра Dire Raids (по умолчанию 2000)</DireRaids.MinThreatDescription>
+
+    <DireRaids.MinPopulation>Минимальное население</DireRaids.MinPopulation>
+    <DireRaids.MinPopulationDescription>Минимальная популяция, прежде чем увидеть Dire Raids (по умолчанию 1)</DireRaids.MinPopulationDescription>
+</LanguageData>

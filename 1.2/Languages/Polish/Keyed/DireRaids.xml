@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- The definition isn't picked up even with DefInjected, so they're duplicated here -->
+    <DireRaidEnemy.label>straszliwy rajd</DireRaidEnemy.label>
+    <DireRaidEnemy.letterLabel>Straszliwy Rajd!</DireRaidEnemy.letterLabel>
+    <DireRaidEnemy.letterText>Zbliża się znacznie większe zagrożenie. Niebezpieczeństwo wydaje się tragiczne!</DireRaidEnemy.letterText>
+
+    <DireRaids.SettingName>Straszliwy Rajd</DireRaids.SettingName>
+  
+    <DireRaids.DangerSetting>Mnożnik Zagrożenia</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>Określa mnożnik dla wartości punktowych najokrutniejszych rajdów (domyślnie 3)</DireRaids.DangerSettingDescription>
+
+    <DireRaids.BaseChance>Podstawowa Szansa</DireRaids.BaseChance>
+    <DireRaids.BaseChanceDescription>Szansa na Straszliwy Rajd (domyślnie 1,8)</DireRaids.BaseChanceDescription>
+
+    <DireRaids.MinRefire>Min. Refire (dni)</DireRaids.MinRefire>
+    <DireRaids.MinRefireDescription>Minimalna liczba dni między Straszliwy Rajd (domyślnie 60)</DireRaids.MinRefireDescription>
+
+    <DireRaids.MinThreat>Min. Zagrożenie</DireRaids.MinThreat>
+    <DireRaids.MinThreatDescription>Minimalny wynik podstawowy przed zobaczeniem Straszliwy Rajd (domyślnie 2000)</DireRaids.MinThreatDescription>
+
+    <DireRaids.MinPopulation>Min. Populacja</DireRaids.MinPopulation>
+    <DireRaids.MinPopulationDescription>Minimalna populacja przed zobaczeniem Straszliwy Rajd (domyślnie 1)</DireRaids.MinPopulationDescription>
+</LanguageData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- The definition isn't picked up even with DefInjected, so they're duplicated here -->
+    <DireRaidEnemy.label>incursión extrema del enemigo</DireRaidEnemy.label>
+    <DireRaidEnemy.letterLabel>Incursión Extrema!</DireRaidEnemy.letterLabel>
+    <DireRaidEnemy.letterText>Se acerca una amenaza mucho más grande. ¡El peligro parece ser terrible</DireRaidEnemy.letterText>
+
+    <DireRaids.SettingName>Incursión Extrema</DireRaids.SettingName>
+  
+    <DireRaids.DangerSetting>Multiplicador de Peligro</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>Determina el multiplicador de los valores de puntos de los Incursión Extrema (predeterminado 3)</DireRaids.DangerSettingDescription>
+
+    <DireRaids.BaseChance>Probabilidad de Base</DireRaids.BaseChance>
+    <DireRaids.BaseChanceDescription>La posibilidad de que ocurran de los Incursión Extrema (por defecto 1.8)</DireRaids.BaseChanceDescription>
+
+    <DireRaids.MinRefire>Mínimo Refire (Días)</DireRaids.MinRefire>
+    <DireRaids.MinRefireDescription>El número mínimo de días entre los Incursión Extrema (por defecto 60)</DireRaids.MinRefireDescription>
+
+    <DireRaids.MinThreat>Amenaza Mínima</DireRaids.MinThreat>
+    <DireRaids.MinThreatDescription>El puntaje base mínimo antes de ver los Incursión Extrema (por defecto 2000)</DireRaids.MinThreatDescription>
+
+    <DireRaids.MinPopulation>Población Mínima</DireRaids.MinPopulation>
+    <DireRaids.MinPopulationDescription>La población mínima antes de ver los Incursión Extrema (por defecto 1)</DireRaids.MinPopulationDescription>
+</LanguageData>

@@ -54,6 +54,9 @@ Link me translation fixes/additions and I'll add them in.
 
 ## Changes:
 
+#### 1.2.0
+> 1.2 support!
+
 #### 1.1.0
 > 1.1 support!
 
