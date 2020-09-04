@@ -104,6 +104,8 @@ namespace DireRaids {
       raid.minThreatPoints = minThreatPointsHandler;
       raid.minPopulation = minPopulationHandler;
 
+      Settings.SaveChanges();
+
       Logger.Message(String.Format(
         "Settings loaded:\n\tpointMultiplier: {0}\n\tbaseChange: {1}\n\tminRefireDays: {2}\n\tminThreatPoints: {3}\n\tminPopulation: {4}",
         PointMultiplier(), raid.baseChance, raid.minRefireDays, raid.minThreatPoints, raid.minPopulation));
