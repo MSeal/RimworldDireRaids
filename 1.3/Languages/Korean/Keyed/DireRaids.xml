@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- The definition isn't picked up even with DefInjected, so they're duplicated here -->
+    <DireRaidEnemy.label>적의 대습격</DireRaidEnemy.label>
+    <DireRaidEnemy.letterLabel>대습격!</DireRaidEnemy.letterLabel>
+    <DireRaidEnemy.letterText>전보다 더 큰 위협이 다가오고 있습니다. 굉장히 심각한 것 같습니다!</DireRaidEnemy.letterText>
+
+    <DireRaids.SettingName>Dire Raids</DireRaids.SettingName>
+
+    <DireRaids.DangerSetting>위험률</DireRaids.DangerSetting>
+    <DireRaids.DangerSettingDescription>대습격의 수값에 대한 배율을 결정합니다. (기본값 3)</DireRaids.DangerSettingDescription>
+
+    <DireRaids.BaseChance>기초 가능성</DireRaids.BaseChance>
+    <DireRaids.BaseChanceDescription>대습격의 발생 가능성 (기본값 1.8)</DireRaids.BaseChanceDescription>
+
+    <DireRaids.MinRefire>최소 재시작 (일)</DireRaids.MinRefire>
+    <DireRaids.MinRefireDescription>대습격 최소 일 수 (기본값 60)</DireRaids.MinRefireDescription>
+
+    <DireRaids.MinThreat>최소 위협</DireRaids.MinThreat>
+    <DireRaids.MinThreatDescription>대습격이 일어나기전 최소 기본 점수 (기본값 2000)</DireRaids.MinThreatDescription>
+
+    <DireRaids.MinPopulation>최소 인구수</DireRaids.MinPopulation>
+    <DireRaids.MinPopulationDescription>대습격이 일어나기 전 최소 인구 (기본값 1)</DireRaids.MinPopulationDescription>
+</LanguageData>
