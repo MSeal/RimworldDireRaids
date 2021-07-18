@@ -61,7 +61,7 @@ namespace DireRaids {
         "DireRaids.DangerSettingDescription".Translate(),
         DEFAULT_POINT_MULT,
         FloatNonNegativeValidator());
-      pointMultHandler.OnValueChanged = newValue => { ApplySettings(); };
+      pointMultHandler.ValueChanged += newValue => { ApplySettings(); };
 
       baseChanceHandler = Settings.GetHandle<float>(
          "baseChance",
@@ -69,7 +69,7 @@ namespace DireRaids {
          "DireRaids.BaseChanceDescription".Translate(),
          DEFAULT_BASE_CHANCE,
          FloatNonNegativeValidator());
-      baseChanceHandler.OnValueChanged = newValue => { ApplySettings(); };
+      baseChanceHandler.ValueChanged += newValue => { ApplySettings(); };
 
       minRefireDaysHandler = Settings.GetHandle<int>(
         "minRefireDays",
@@ -77,7 +77,7 @@ namespace DireRaids {
         "DireRaids.MinRefireDescription".Translate(),
         DEFAULT_MIN_REFIRE,
         IntNonNegativeValidator());
-      minRefireDaysHandler.OnValueChanged = newValue => { ApplySettings(); };
+      minRefireDaysHandler.ValueChanged += newValue => { ApplySettings(); };
 
       minThreatPointsHandler = Settings.GetHandle<int>(
         "minThreatPoints",
@@ -85,7 +85,7 @@ namespace DireRaids {
         "DireRaids.MinThreatDescription".Translate(),
         DEFAULT_MIN_THREAT,
         IntNonNegativeValidator());
-      minThreatPointsHandler.OnValueChanged = newValue => { ApplySettings(); };
+      minThreatPointsHandler.ValueChanged += newValue => { ApplySettings(); };
 
       minPopulationHandler = Settings.GetHandle<int>(
         "minPopulation",
@@ -93,7 +93,7 @@ namespace DireRaids {
         "DireRaids.MinPopulationDescription".Translate(),
         DEFAULT_MIN_POP,
         IntNonNegativeValidator());
-      minPopulationHandler.OnValueChanged = newValue => { ApplySettings(); };
+      minPopulationHandler.ValueChanged += newValue => { ApplySettings(); };
     }
 
     public void ApplySettings()
